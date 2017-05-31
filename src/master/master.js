@@ -1,3 +1,9 @@
-import { messager } from "./messager";
+import { store } from "./store";
 
-messager.post({ type: "HELLO" });
+store.subscribe(() => {
+  console.log("Master store updated. State is now: ", store.getState());
+});
+
+store.dispatch({
+  type: "TEST_MASTER"
+});
