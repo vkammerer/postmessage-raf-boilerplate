@@ -1,6 +1,3 @@
-# postmessage-raf-boilerplate
-A boilerplate to start projects with @vkammerer/postmessage-raf   
+A boilerplate to start projects with [@vkammerer/redux-postmessage-raf](https://vkammerer.github.io/redux-postmessage-raf/)   
 
-A ping message is sent to the worker, which then replies with a pong message.   
-
-[vkammerer.github.io/postmessage-raf-boilerplate](https://vkammerer.github.io/postmessage-raf-boilerplate/)
+[vkammerer.github.io/redux-postmessage-raf-boilerplate](https://vkammerer.github.io/redux-postmessage-raf-boilerplate/)
